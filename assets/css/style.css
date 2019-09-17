@@ -1,0 +1,74 @@
+body {
+  background: url(../img/sfondo.jpg);
+  background-size: cover;
+}
+
+*{
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 60%;
+  margin: auto;
+}
+
+.header {
+  background: red;
+  width: 100%;
+  height: 200px;
+}
+
+.navbar {
+  background: blue;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+
+main:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+.primacolonna {
+  float: left;
+  width: 20%;
+  background-color: brown;
+  padding: 8px;
+}
+
+.secondacolonna {
+  float: left;
+  width: 54%;
+  background-color: green;
+  margin-right: 3%;
+  margin-left: 3%;
+  padding: 8px;
+}
+
+.terzacolonna{
+  float: left;
+  width: 20%;
+}
+
+.terzacolonna div {
+  background-color: yellow;
+  margin-bottom: 20px;
+  padding: 8px;
+}
+
+.footer {
+  background: black;
+  width: 100%;
+  height: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

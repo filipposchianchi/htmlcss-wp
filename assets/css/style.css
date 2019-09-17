@@ -57,10 +57,34 @@ h1 {
 }
 
 .navbar {
-  background: blue;
-  width: 100%;
-  height: 50px;
   margin-bottom: 10px;
+}
+
+/* REGOLE GENERALI NAVBAR */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: grey;
+}
+
+/* REGOLA GENERALE LIST ITEM */
+li {
+  float: left;
+}
+/* REGOLE PER IL LINK */
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 27px;
+  text-decoration: none;
+}
+
+/* COMPORTAMENTO HOVER NAVBAR */
+li a:hover {
+  background-color: darkgrey;
 }
 
 main:after {
@@ -127,6 +151,7 @@ img {
   padding: 8px;
   border-radius: 4px;
 }
+
 /* REGOLE FOOTER */
 .footer {
   background: white;

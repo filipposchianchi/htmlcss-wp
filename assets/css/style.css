@@ -40,7 +40,13 @@ main:after {
 
 h2 {
   margin-bottom: 10px;
+  color: #3E2723;
 }
+
+p {
+  color: #3E2723; 
+}
+
 .primacolonna {
   float: left;
   width: 20%;

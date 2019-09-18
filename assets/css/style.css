@@ -18,12 +18,11 @@ body {
 
 /* REGOLE HEADER */
 .header {
-  margin-top: 2%;
   height: 250px;
   background: url("../img/foresta.jpg");
-  background-size: contain;
+  border: 4px solid white;
+  margin-top: 2%;
   position: relative;
-  border: 5px solid white;
 }
 
 /* LAYOVER HEADER */
@@ -56,35 +55,45 @@ h1 {
   transform: translate(-50%, -50%);
 }
 
+/* REGOLE GENERALI NAVBAR */
 .navbar {
-  margin-bottom: 10px;
+  background-color: grey;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin-bottom: 2%;
 }
 
-/* REGOLE GENERALI NAVBAR */
-ul {
+/* REGOLA GENERALE UNORDERED LIST */
+.navbar ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: grey;
+}
+/* CLEARFIX UL */
+.navbar ul:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /* REGOLA GENERALE LIST ITEM */
-li {
+.navbar li {
   float: left;
+  width: 14.28%;
+  text-align: center;
+  font-size: 15px;
 }
 /* REGOLE PER IL LINK */
-li a {
-  display: block;
+.navbar a {
   color: white;
-  text-align: center;
-  padding: 14px 27px;
+  line-height: 40px;
+  display: block;
   text-decoration: none;
 }
 
 /* COMPORTAMENTO HOVER NAVBAR */
 li a:hover {
   background-color: darkgrey;
+  color: black;
 }
 
 main:after {
@@ -138,6 +147,7 @@ img {
   display: block;
   color: green;
   margin-bottom: 20px;
+  text-decoration: none;
 }
 
 .secondacolonna {
